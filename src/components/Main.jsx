@@ -1,10 +1,13 @@
 import React from "react";
 import Header from "./Header";
 import FlutterDawn from "./FlutterDawn";
+import Footer from "./Footer";
+import Services from "./Services";
+import ContactUs from "./ContactUs";
 
 const Main = () => {
   return (
-    <div className="flex-1 min-h-screen bg-gradient-to-br from-[#0f0f0f] via-[#0f0f0f] to-[#004d4d]/40 text-white">
+    <div className="flex-1 min-h-screen bg-neutral-900 text-white">
       <Header />
 
       <div className="flex w-full justify-between items-center mt-4 px-12 pt-6">
@@ -29,6 +32,9 @@ const Main = () => {
         </div>
       </div>
         <FlutterDawn />
+        <Services />
+        <ContactUs />
+        <Footer />
     </div>
   );
 };

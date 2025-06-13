@@ -9,7 +9,7 @@ import Main from './components/Main'
 function App() {
 
   return (
-    <div className='flex bg-black text-white'>
+    <div className='flex bg-gray-900 text-white'>
 
       <SideBar />
       <Main />
