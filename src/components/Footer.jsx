@@ -26,7 +26,7 @@ const Footer = () => {
                 <a
                     key={index}
                     href={link.url}
-                    className="text-gray-300 hover:text-white transition"
+                    className="text-gray-300 hover:font-bold hover:text-white transition"
                 >
                     {link.name}
                 </a>
